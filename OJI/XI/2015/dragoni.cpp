@@ -3,6 +3,7 @@
 const int INF = INT_MAX / 2;
 
 std::set<std::tuple<int, int, int>> q;
+
 std::vector<std::vector<int>> dist;
 std::vector<std::vector<std::pair<int, int>>> graph;
 std::vector<int> drag;
